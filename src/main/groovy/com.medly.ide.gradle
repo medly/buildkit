@@ -1,0 +1,12 @@
+plugins {
+    id "idea"
+    id "com.kdabir.mksrc"
+}
+
+idea {
+    module {
+        excludeDirs += [file('.idea'), file('.gradle'), file('gradle')]
+    }
+}
+
+task mksrc(dependsOn: "makeSourceDirs")
