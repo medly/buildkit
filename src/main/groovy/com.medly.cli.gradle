@@ -1,0 +1,8 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation "com.github.ajalt:clikt:2.7.1"
+}
+

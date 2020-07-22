@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+sourceSets {
+    main.kotlin.srcDirs = ['src']
+    test.kotlin.srcDirs = ['test']
+
+    main.resources.srcDirs = ['res']
+    test.resources.srcDirs = ['test-res']
+
+    main.java.srcDirs = [] // disable java source dirs
+    test.java.srcDirs = [] // disable java test dirs
+}
