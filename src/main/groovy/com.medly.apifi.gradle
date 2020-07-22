@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.medly.apifi:runtime:0.1.0'
+    implementation 'com.medly.apifi:runtime:0.1.1'
 }
 
 task apifi(type: com.medly.buildkit.ApifiCodegen)
